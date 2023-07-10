@@ -1,7 +1,7 @@
 /**
  * @param {string} 
  */
-function palindromeCheck (word) {
+function wordSplit (word) {
   if (typeof word !== 'string') {
     word = 'word';
   }
@@ -13,21 +13,24 @@ function palindromeCheck (word) {
   return WORD_ARRAY;
 }
 
-//TEST FUNZIONE palindromeCheck()
-console.log(palindromeCheck('classe102'));
+//TEST FUNZIONE wordSplit()
+console.log(wordSplit('classe102'));
+console.log('End of starting tests');
 
 /**
- * @param {Array}
+ * @param {array}
  */
 function wordReverse (wordSplitted) {
   const WORD_REVERSED = [];
-  for (i = wordReverse.length; i = 0; i--) {
-    WORD_REVERSED.push(wordSplitted(i));
+  for (i = wordReverse.length - 1; i <= 0; i--) {
+    WORD_REVERSED.push(wordSplitted[i]);
   }
 
   //TEST
   console.log(`The reversed array is: ${WORD_REVERSED}`);
+
+  return WORD_REVERSED;
 }
 
-//TEST FUNZIONE wordSplitted
-console.log(wordReverse());
+// //TEST FUNZIONE wordSplitted
+// console.log(wordReverse());
