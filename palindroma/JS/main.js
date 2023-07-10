@@ -6,4 +6,6 @@ BTN_INPUT.addEventListener('click', function getWord() {
 
   //TEST INPUT
   console.log(`The word is: ${USER_WORD}`);
+
+  palindromeCheck (USER_WORD);
 })
