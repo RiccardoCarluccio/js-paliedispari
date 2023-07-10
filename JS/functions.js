@@ -6,3 +6,8 @@ function randomNumber() {
   console.log(`The random number between 1 and 5 is: ${cpuResult}`);
   return cpuResult;
 }
+
+//FUNZIONE TEST
+function test(tested) {
+  tested();
+}
