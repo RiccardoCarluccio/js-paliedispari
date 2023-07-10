@@ -1,5 +1,5 @@
 /**
- * 
+ * @returns {number}
  */
 function randomNumber() {
   const cpuResult = Math.floor(Math.random() * 5) + 1;
@@ -8,6 +8,11 @@ function randomNumber() {
 }
 
 //FUNZIONE TEST
+/**
+ * 
+ * @param {function}
+ * @returns {number}
+ */
 function test(tested) {
   tested();
 }
