@@ -40,3 +40,6 @@ randomNumber();
 
 //funzione TEST
 test(randomNumber);
+
+//AVVISO DI FINE TEST
+console.log("End of functions' tests");
