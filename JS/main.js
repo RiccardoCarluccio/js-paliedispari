@@ -4,7 +4,7 @@ let sum;
 
 BTN_INPUT.addEventListener('click', function getData() {
   const USER_NUM = USER_INPUT.value;
-  sum = USER_NUM + randomNumber();
+  sum = parseInt(USER_NUM) + parseInt(randomNumber());
   
   //TEST somma
   console.log(`The sum is: ${sum}`);
