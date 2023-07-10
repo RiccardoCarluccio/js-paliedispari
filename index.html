@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
   <title>Pali & Dispari</title>
 </head>
 <body>
   
   <form>
-    <select name="Odd or Even" id=""></select>
-    <option value="Odd"></option>
-    <option value="Even"></option>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="Odd">Odd</option>
+      <option value="Even">Even</option>
+    </select>
 
     <label for="user-input">Enter a number from 1 to 5</label>
     <input type="text" id="user-input" name="user-input">
 
-    <button type="button" id="btn-input">Check email</button>
+    <button type="button" id="btn btn-input">Enter</button>
   </form>
 
   <script src="JS/main.js"></script>
