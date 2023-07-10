@@ -1,9 +1,9 @@
-const BTN_INPUT = document.getElementById("btn-input");
+const BTN_INPUT = document.querySelector(".btn-input");
 const USER_INPUT = document.getElementById("user-input");
 let sum;
 
-btnInput.addEventListener('click', function getData() {
-  const USER_NUM = userInput.value;
+BTN_INPUT.addEventListener('click', function getData() {
+  const USER_NUM = USER_INPUT.value;
   sum = USER_NUM + randomNumber();
   
   //TEST somma
