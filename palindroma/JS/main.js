@@ -9,4 +9,8 @@ BTN_INPUT.addEventListener('click', function getWord() {
 
   wordSplit(USER_WORD);
   wordReverse(wordSplit(USER_WORD));
+  
+  const finalReversedWord = wordReverse(wordSplit(USER_WORD)).join;
+
+  console.log(palindromeCheck(USER_WORD, finalReversedWord));
 })

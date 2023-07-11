@@ -32,5 +32,6 @@ function wordReverse (splittedArray) {
   return WORD_REVERSED;
 }
 
-// //TEST FUNZIONE wordSplitted
-// console.log(wordReverse());
+function palindromeCheck(word1, word2) {
+  return word1 === word2;
+}
