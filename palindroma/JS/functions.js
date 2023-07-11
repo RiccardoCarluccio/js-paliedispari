@@ -1,5 +1,3 @@
-let WORD_ARRAY = [];
-
 /**
  * @param {string} 
  */
@@ -8,7 +6,7 @@ function wordSplit (word) {
     word = 'word';
   }
 
-  WORD_ARRAY = word.split("");
+  const WORD_ARRAY = word.split("");
   //TEST
   console.log(`The chosen word is: ${word} and the resulting array is: ${WORD_ARRAY}`);
 
