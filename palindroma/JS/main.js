@@ -8,5 +8,5 @@ BTN_INPUT.addEventListener('click', function getWord() {
   console.log(`The word is: ${USER_WORD}`);
 
   wordSplit(USER_WORD);
-  wordReverse();
+  wordReverse(WORD_ARRAY);
 })

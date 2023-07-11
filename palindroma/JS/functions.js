@@ -20,10 +20,10 @@ console.log('End of starting tests');
 /**
  * @param {array}
  */
-function wordReverse (wordSplitted) {
+function wordReverse (arraySplitted) {
   const WORD_REVERSED = [];
   for (i = wordReverse.length - 1; i <= 0; i--) {
-    WORD_REVERSED.push(wordSplitted[i]);
+    WORD_REVERSED.push(arraySplitted[i]);
   }
 
   //TEST
