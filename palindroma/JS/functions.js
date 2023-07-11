@@ -1,3 +1,5 @@
+let WORD_ARRAY = [];
+
 /**
  * @param {string} 
  */
@@ -6,7 +8,7 @@ function wordSplit (word) {
     word = 'word';
   }
 
-  const WORD_ARRAY = word.split("");
+  WORD_ARRAY = word.split("");
   //TEST
   console.log(`The chosen word is: ${word} and the resulting array is: ${WORD_ARRAY}`);
 
@@ -20,10 +22,10 @@ console.log('End of starting tests');
 /**
  * @param {array}
  */
-function wordReverse (arraySplitted) {
+function wordReverse (splittedArray) {
   const WORD_REVERSED = [];
-  for (i = wordReverse.length - 1; i <= 0; i--) {
-    WORD_REVERSED.push(arraySplitted[i]);
+  for (i = splittedArray.length - 1; i <= 0; i--) {
+    WORD_REVERSED.push(splittedArray[i]);
   }
 
   //TEST
