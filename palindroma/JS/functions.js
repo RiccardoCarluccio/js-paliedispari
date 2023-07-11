@@ -24,7 +24,7 @@ console.log('End of starting tests');
  */
 function wordReverse (splittedArray) {
   const WORD_REVERSED = [];
-  for (i = splittedArray.length - 1; i <= 0; i--) {
+  for (i = splittedArray.length - 1; i >= 0; i--) {
     WORD_REVERSED.push(splittedArray[i]);
   }
 
